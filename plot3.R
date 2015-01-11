@@ -5,7 +5,6 @@
 # Also, the code is written in Windows Operating System through RStudio hence windows()
 # graphics device is utilized to plot the figures on screen.
 #
-setwd('C:\\Users\\zikribayraktar\\SkyDrive\\Documents\\MOOC\\Coursera_04_Exploratory_Data_Analysis\\Project1')
 
 # Step: Record date and R version:
 (DownloadDate <- date())
