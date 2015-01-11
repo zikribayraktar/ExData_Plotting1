@@ -5,6 +5,7 @@
 # Also, the code is written in Windows Operating System through RStudio hence windows()
 # graphics device is utilized to plot the figures on screen.
 #
+setwd('C:\\Users\\zikribayraktar\\SkyDrive\\Documents\\MOOC\\Coursera_04_Exploratory_Data_Analysis\\Project1')
 
 # Step: Record date and R version:
 (DownloadDate <- date())
@@ -35,12 +36,12 @@ xx <- strptime(x, format="%d/%m/%Y %H:%M:%S")
 
 # Display the figure on the screen:
 windows()
-plot(xx,GAP, type="l", xlab=" ", ylab="Global Active Power (kilowatts")
+plot(xx,GAP, type="l", xlab=" ", ylab="Global Active Power (kilowatts)")
 dev.off()
 
 # Save the figure to PNG:
 png(file = "plot2.png", units = "px", width=480, height=480, res=NA)
-plot(xx,GAP, type="l", xlab=" ", ylab="Global Active Power (kilowatts")
+plot(xx,GAP, type="l", xlab=" ", ylab="Global Active Power (kilowatts)")
 dev.off()
 
 ##########################################################
